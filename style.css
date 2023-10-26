@@ -151,3 +151,38 @@ h5{
     font-style: italic;
     font-family: Georgia, 'Times New Roman', Times, Georgia, 'Times New Roman', Times, serif;
 }
+.create-post{
+    width: 1130px;
+    height: 350px;
+    background-color: rgb(30, 30, 30);
+    margin: 1rem;
+    border-radius: 1% 1% 20% 20%;
+}
+textarea{
+    border-radius: 10rem;
+    margin: 2rem;
+    background-color: transparent;
+    color: white;
+    margin-left: 12rem;
+}
+.create-post p{
+    text-align: center;
+}
+#post{
+    background-color: rgb(247, 247, 247);
+    color: black;
+    padding: 0.7rem;
+    border-radius: 2rem;
+    width: 5rem;
+}
+#post:hover{
+    background-color: rgb(60, 60, 60);
+    color: rgb(255, 255, 255);
+    padding: 0.7rem;
+    border-radius: 2rem;
+    width: 5rem;
+    border: 2px solid white;
+}
+.create-post input{
+    margin-left: 20rem;
+}
